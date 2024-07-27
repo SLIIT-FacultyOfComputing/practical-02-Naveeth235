@@ -84,7 +84,8 @@ public class StringBasic {
                 count++;
             }
         }
-        System.out.println(count);
+        String message = String.format("The number of vowels in the string is: %d", count);
+        System.out.println(message);
         
         input.close();
     } 
